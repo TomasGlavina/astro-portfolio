@@ -4,10 +4,11 @@ module.exports = {
   darkMode: 'class',
   theme: {
     fontFamily: {
-      sans: ["Ubuntu", "Helvetica", "Arial", "sans-serif"],
+      sans: ["Source Sans Pro", "Helvetica", "Arial", "sans-serif"],
       mono: ["Ubuntu Mono", "monospace"],
+      serif: ["Playfair Display", "serif"],
     },
     extend: {},
   },
-  plugins: [require("daisyui"), require('@tailwindcss/typography')],
+  plugins: [require("daisyui"), require('@tailwindcss/typography'), require('tailwind-nord')],
 };
